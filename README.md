@@ -1,32 +1,23 @@
-# Create Fabric Addon Template
+# Blueprint Tweaks: A Create addon mod
 
-This template mod comes pre-configured for developing an addon mod for Create on Fabric.
+The mod Tweaked Create's blueprint system:
 
+1. now can print the blueprint directly in survival mode.(will consume the blueprint)
+2. add an air-placeholder block, while printing blueprint, the block will be replaced by air.
 
-## Setup
+Purpose: With this mod, you can create modpack that preset some blueprint structures for player to quickly generate.
 
-This template is an extension of the base [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod).
-Setup is mostly the same.
+# 机械动力蓝图微调
 
-Additionally, set `recipe_viewer` in [gradle.properties](gradle.properties). Remember to remove unused
-example code. Make sure versions are up-to-date.
+该模组微调了机械动力的蓝图系统：
 
-When you publish your mod, you should use jars provided by GitHub Actions. These jars will be built in a predictable
-environment and will have build number metadata.
+1. 现在可以在生存模式下使用蓝图的直接打印功能（会消耗一份蓝图）。
+2. 添加了一个空气占位符方块，打印蓝图时，该方块会代之以空气。
 
-## Features
-- Access to Create and all of its dependencies
-- Mojang Mappings base, with Parchment providing Javadoc and parameters
-- Automatic build workflow with GitHub Actions
-- Developer QOL: Mod Menu, recipe viewers
+目的：该模组面向整合包制作，你可以预设一些蓝图结构，以供玩家直接生成。
 
-## Other Templates
-- [Multi-loader template](https://github.com/Fabricators-of-Create/create-multiloader-addon-template)
-- [Forge-only template](https://github.com/kotakotik22/CreateAddonTemplate)
+为什么不用蓝图大炮？：使用蓝图大炮需要玩家自行收集材料，而好看的建筑不免有些奇怪零散的装饰方块，对此玩家通常有两种选择：
+1. 忽略这些方块，不美观的同时作者也白做了这些装饰。
+2. 收集这些方块，如果收集花费的时间太多，可能导致整合包偏题，玩家的体验会变得糟糕。而使用本模组，你可以预设好这些建筑，让玩家直接生成，不需要收集材料，建筑风格也可以更契合整合包的主题。
 
-## Help
-Questions? Join us in the #devchat channel of the [Create Discord](https://discord.com/invite/hmaD7Se).
-
-## License
-
-This template is available under the CC0 license. Feel free to do as you wish with it.
+一个可行的简单方案是结合ftb任务，玩家只需要提交主要的材料，就可以领取蓝图，以此避免玩家过度收集零散的素材。

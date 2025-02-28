@@ -3,7 +3,7 @@
   "id": "blueprint_tweaks",
   "version": "${version}",
   "name": "Blueprint Tweaks",
-  "description": "Tweaked Create's blueprint system: 1. now can print the blueprint directly in survival mode.(will consume the blueprint) 2. add a air-placeholder block, while printing blueprint, the block will be replaced by air. With this mod, you can create modpack that preset some blueprint structures for player to quickly generate.",
+  "description": "Tweaked Create's blueprint system: 1. now can print the blueprint directly in survival mode.(will consume the blueprint) 2. add an air-placeholder block, while printing blueprint, the block will be replaced by air. With this mod, you can create modpack that preset some blueprint structures for player to quickly generate.",
   "authors": [
     "Kl1nge5"
   ],
