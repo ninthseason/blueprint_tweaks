@@ -1,5 +1,7 @@
 # Blueprint Tweaks: A Create addon mod
 
+[Forge Version](https://github.com/ninthseason/create-blueprint-tweaks-forge) | [Neoforge Version](https://github.com/ninthseason/create-blueprint-tweaks-neoforge)
+
 The mod Tweaked Create's blueprint system:
 
 1. now can print the blueprint directly in survival mode.(will consume the blueprint)
