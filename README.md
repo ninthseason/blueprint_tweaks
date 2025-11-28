@@ -1,5 +1,13 @@
 # Blueprint Tweaks: A Create addon mod
 
+**⚠The Fabric version is no longer maintained. Please use the Forge or NeoForge versions.⚠**
+
+**The Forge and NeoForge versions have more features than the Fabric version.**
+
+**⚠Fabric版本已经停止维护。请使用Forge版本或Neoforge版本。⚠**
+
+**Forge版本和Neoforge版本拥有比Fabric版本更多的功能。**
+
 [Forge Version](https://github.com/ninthseason/create-blueprint-tweaks-forge) | [Neoforge Version](https://github.com/ninthseason/create-blueprint-tweaks-neoforge)
 
 The mod Tweaked Create's blueprint system:
